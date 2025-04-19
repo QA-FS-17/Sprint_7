@@ -1,0 +1,1 @@
+[32mINFO    [0m api.order_api:order_api.py:46 Accept order response: 500 {"code":500,"message":"invalid input syntax for type integer: \"None\""}
