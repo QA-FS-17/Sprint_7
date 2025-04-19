@@ -9,15 +9,19 @@ class CourierApi:
         self.base_url = TestData.BASE_URL
 
     @allure.step("Создать курьера (логин: {login})")
-    def create_courier(self, login, password, first_name):
+    def create_courier(self, login=None, password=None, firstName=None):
         """Создание курьера с указанными данными"""
+        payload = {}
+        if login is not None:
+            payload["login"] = login
+        if password is not None:
+            payload["password"] = password
+        if firstName is not None:
+            payload["firstName"] = firstName
+
         return requests.post(
             f"{self.base_url}/api/v1/courier",
-            data={
-                "login": login,
-                "password": password,
-                "firstName": first_name
-            }
+            json=payload
         )
 
     @allure.step("Авторизовать курьера (логин: {login})")

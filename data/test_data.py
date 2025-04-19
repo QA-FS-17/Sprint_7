@@ -1,6 +1,5 @@
 # test_data.py
 
-import allure
 import random
 import string
 
@@ -22,18 +21,17 @@ class TestData:
         }
 
     @staticmethod
-    @allure.step("Сгенерировать данные заказа")
     def generate_order_data(color=None):
-        """Генерирует данные заказа"""
+        """Генерирует данные заказа с указанным цветом"""
         payload = {
-            "firstName": "TestUser",
-            "lastName": "TestLastName",
-            "address": "Moscow, Test st. 42",
-            "metroStation": 4,
-            "phone": "+7" + ''.join(random.choices(string.digits, k=10)),
-            "rentTime": 5,
-            "deliveryDate": "2024-12-31",
-            "comment": "Standard test order"
+            "firstName": "Тест",
+            "lastName": "Тестов",
+            "address": "Москва, ул. Тестовая, 1",
+            "metroStation": 1,
+            "phone": "+79999999999",
+            "rentTime": 1,
+            "deliveryDate": "2024-01-01",
+            "comment": "Тестовый заказ"
         }
         if color:
             payload["color"] = color
