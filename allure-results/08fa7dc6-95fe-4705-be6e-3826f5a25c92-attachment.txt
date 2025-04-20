@@ -1,0 +1,4 @@
+2025-04-20 13:23:37,466 - api.order_api - INFO - Creating order with payload: {'firstName': 'Тест', 'lastName': 'Тестов', 'address': 'Москва, ул. Тестовая, 1', 'metroStation': 1, 'phone': '+79999999999', 'rentTime': 1, 'deliveryDate': '2024-01-01', 'comment': 'Тестовый заказ'}
+2025-04-20 13:23:37,494 - api.order_api - INFO - Order creation response: 201 {"track":172704}
+2025-04-20 13:23:37,611 - api.order_api - INFO - Accept order response: 500 {"code":500,"message":"invalid input syntax for type integer: \"invalid_courier_id\""}
+2025-04-20 13:23:37,615 - api.order_api - INFO - Cancelling order with track: 172704
