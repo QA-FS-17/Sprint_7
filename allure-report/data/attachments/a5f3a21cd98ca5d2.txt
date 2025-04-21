@@ -1,0 +1,2 @@
+2025-04-21 21:44:40,928 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_oueamebp_21fa0d', 'password': 'wtmrmdsvjk', 'firstName': 'alkbmbumde'}
+2025-04-21 21:44:40,989 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}

@@ -1,0 +1,2 @@
+[32mINFO    [0m api.order_api:order_api.py:18 Creating order with payload: {'firstName': 'dggsfvgoaa', 'lastName': 'pnyrmpobfv', 'address': 'г. kopxu, ул. sbqzbzwl, 92', 'metroStation': 10, 'phone': '+79967967896', 'rentTime': 1, 'deliveryDate': '2025-04-24', 'comment': 'fpnxnxpjlblvmsxttxyd', 'color': ['GREY']}
+[32mINFO    [0m api.order_api:order_api.py:20 Order creation response: 201 {"track":523548}

@@ -1,0 +1,2 @@
+2025-04-21 21:44:42,932 - api.order_api - INFO - Creating order with payload: {'firstName': 'hlzfsahaao', 'lastName': 'oeckzwagmq', 'address': 'г. qoupp, ул. wwcbowwn, 75', 'metroStation': 3, 'phone': '+79578990655', 'rentTime': 2, 'deliveryDate': '2025-04-24', 'comment': 'gnrsrsigubdwepcwfhcd', 'color': ['BLACK']}
+2025-04-21 21:44:43,008 - api.order_api - INFO - Order creation response: 201 {"track":209750}

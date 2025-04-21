@@ -1,0 +1,2 @@
+2025-04-21 21:44:41,489 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_hpokungy_607251', 'password': 'ajmgenzurr'}
+2025-04-21 21:44:41,641 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
