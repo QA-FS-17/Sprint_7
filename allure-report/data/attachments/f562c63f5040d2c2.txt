@@ -1,0 +1,12 @@
+2025-04-21 21:44:45,223 - api.order_api - INFO - Creating order with payload: {'firstName': 'nghulmzbhc', 'lastName': 'crgxggohjg', 'address': 'г. oangu, ул. ctlxngyy, 40', 'metroStation': 1, 'phone': '+79564954935', 'rentTime': 6, 'deliveryDate': '2025-04-24', 'comment': 'ssjfkhpphcyevktovodd'}
+2025-04-21 21:44:45,249 - api.order_api - INFO - Order creation response: 201 {"track":15795}
+2025-04-21 21:44:45,315 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_rcuerhgg_142109', 'password': 'dtyjivnkpb', 'firstName': 'ltuiwravoy'}
+2025-04-21 21:44:45,368 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:45,369 - api.courier_api - INFO - Авторизация курьера: courier_rcuerhgg_142109
+2025-04-21 21:44:45,427 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507930}
+2025-04-21 21:44:45,458 - api.order_api - INFO - Accept order response: 200 {"ok":true}
+2025-04-21 21:44:45,495 - api.order_api - INFO - Accept order response: 409 {"code":409,"message":"Этот заказ уже в работе"}
+2025-04-21 21:44:45,497 - api.courier_api - INFO - Удаление курьера с ID: 507930
+2025-04-21 21:44:45,558 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}
+2025-04-21 21:44:45,563 - api.order_api - INFO - Cancelling order with track: 15795
+2025-04-21 21:44:45,588 - root - WARNING - Не удалось отменить заказ 15795. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

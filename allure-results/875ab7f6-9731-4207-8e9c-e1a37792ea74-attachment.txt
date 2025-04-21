@@ -1,0 +1,7 @@
+2025-04-21 21:44:39,832 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_ypaiikao_78974f', 'password': 'eqecxfrnex', 'firstName': 'pijlonirlp'}
+2025-04-21 21:44:39,907 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:39,907 - api.courier_api - INFO - Авторизация курьера: courier_ypaiikao_78974f
+2025-04-21 21:44:40,002 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507920}
+2025-04-21 21:44:40,021 - api.order_api - INFO - Accept order response: 404 {"code":404,"message":"Заказа с таким id не существует"}
+2025-04-21 21:44:40,023 - api.courier_api - INFO - Удаление курьера с ID: 507920
+2025-04-21 21:44:40,099 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

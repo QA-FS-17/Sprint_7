@@ -1,0 +1,5 @@
+[32mINFO    [0m api.order_api:order_api.py:18 Creating order with payload: {'firstName': 'whqrtsrphg', 'lastName': 'vmizhwrbar', 'address': 'г. lvzgb, ул. kyssevzi, 77', 'metroStation': 4, 'phone': '+79227928613', 'rentTime': 1, 'deliveryDate': '2025-04-24', 'comment': 'tbfructjifawrmcmcinn'}
+[32mINFO    [0m api.order_api:order_api.py:20 Order creation response: 201 {"track":4157}
+[32mINFO    [0m api.order_api:order_api.py:46 Accept order response: 500 {"code":500,"message":"invalid input syntax for type integer: \"None\""}
+[32mINFO    [0m api.order_api:order_api.py:26 Cancelling order with track: 4157
+[33mWARNING [0m root:conftest.py:104 Не удалось отменить заказ 4157. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

@@ -1,0 +1,8 @@
+2025-04-21 21:44:42,639 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_rsrmepif_6401ac', 'password': 'ltjwlyyzbr', 'firstName': 'fkthpzepfz'}
+2025-04-21 21:44:42,690 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:42,690 - api.courier_api - INFO - Авторизация курьера: courier_rsrmepif_6401ac
+2025-04-21 21:44:42,766 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507928}
+2025-04-21 21:44:42,768 - api.courier_api - INFO - Авторизация курьера: courier_rsrmepif_6401ac
+2025-04-21 21:44:42,848 - api.courier_api - INFO - Результат авторизации. Статус: 400, Ответ: {"code":400,"message":"Недостаточно данных для входа"}
+2025-04-21 21:44:42,853 - api.courier_api - INFO - Удаление курьера с ID: 507928
+2025-04-21 21:44:42,914 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

@@ -1,0 +1,11 @@
+2025-04-21 21:44:44,807 - api.order_api - INFO - Creating order with payload: {'firstName': 'xdltpvejqc', 'lastName': 'ivsifmrnrf', 'address': 'г. tnufd, ул. mgfhpdtf, 44', 'metroStation': 9, 'phone': '+79679545052', 'rentTime': 4, 'deliveryDate': '2025-04-24', 'comment': 'gqhpfladfhtnbyuxgoaw'}
+2025-04-21 21:44:44,867 - api.order_api - INFO - Order creation response: 201 {"track":38335}
+2025-04-21 21:44:44,936 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_nqxbskxj_c7b03e', 'password': 'hwhhmpwzaf', 'firstName': 'rbhqtbsltq'}
+2025-04-21 21:44:45,005 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:45,005 - api.courier_api - INFO - Авторизация курьера: courier_nqxbskxj_c7b03e
+2025-04-21 21:44:45,072 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507929}
+2025-04-21 21:44:45,121 - api.order_api - INFO - Accept order response: 200 {"ok":true}
+2025-04-21 21:44:45,124 - api.courier_api - INFO - Удаление курьера с ID: 507929
+2025-04-21 21:44:45,176 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}
+2025-04-21 21:44:45,188 - api.order_api - INFO - Cancelling order with track: 38335
+2025-04-21 21:44:45,215 - root - WARNING - Не удалось отменить заказ 38335. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

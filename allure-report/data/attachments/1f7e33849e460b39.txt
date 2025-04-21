@@ -1,0 +1,8 @@
+2025-04-21 21:44:41,659 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_fqoznfzz_337dd2', 'password': 'cadbaidpid', 'firstName': 'hfvhdvngoa'}
+2025-04-21 21:44:41,736 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:41,736 - api.courier_api - INFO - Авторизация курьера: courier_fqoznfzz_337dd2
+2025-04-21 21:44:41,827 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507925}
+2025-04-21 21:44:41,829 - api.courier_api - INFO - Авторизация курьера: courier_fqoznfzz_337dd2
+2025-04-21 21:44:41,894 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507925}
+2025-04-21 21:44:41,896 - api.courier_api - INFO - Удаление курьера с ID: 507925
+2025-04-21 21:44:41,971 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

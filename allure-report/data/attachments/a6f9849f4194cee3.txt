@@ -1,0 +1,2 @@
+[32mINFO    [0m api.courier_api:courier_api.py:43 Авторизация курьера: nonexistent_be51116a-f745-4b84-bbaa-884c6ffb3cac
+[32mINFO    [0m api.courier_api:courier_api.py:48 Результат авторизации. Статус: 404, Ответ: {"code":404,"message":"Учетная запись не найдена"}

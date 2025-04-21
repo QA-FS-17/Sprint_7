@@ -1,0 +1,12 @@
+2025-04-21 21:44:40,116 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_tcsiwiur_909d5e', 'password': 'nejmmsgmcq', 'firstName': 'erfwgixfzs'}
+2025-04-21 21:44:40,179 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:40,179 - api.courier_api - INFO - Авторизация курьера: courier_tcsiwiur_909d5e
+2025-04-21 21:44:40,226 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507921}
+2025-04-21 21:44:40,228 - api.order_api - INFO - Creating order with payload: {'firstName': 'iggisvkbpj', 'lastName': 'auinkvubfc', 'address': 'г. kjoya, ул. aaqjkngr, 84', 'metroStation': 8, 'phone': '+79913213162', 'rentTime': 4, 'deliveryDate': '2025-04-24', 'comment': 'usujhljggltysohefijl'}
+2025-04-21 21:44:40,260 - api.order_api - INFO - Order creation response: 201 {"track":116076}
+2025-04-21 21:44:40,426 - api.order_api - INFO - Accept order response: 200 {"ok":true}
+2025-04-21 21:44:40,462 - api.order_api - INFO - Accept order response: 409 {"code":409,"message":"Этот заказ уже в работе"}
+2025-04-21 21:44:40,466 - api.order_api - INFO - Cancelling order with track: 116076
+2025-04-21 21:44:40,480 - root - WARNING - Не удалось отменить заказ 116076. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}
+2025-04-21 21:44:40,482 - api.courier_api - INFO - Удаление курьера с ID: 507921
+2025-04-21 21:44:40,552 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

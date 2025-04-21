@@ -1,0 +1,8 @@
+[32mINFO    [0m api.courier_api:courier_api.py:27 Создание курьера с данными: {'login': 'courier_xnvwetvz_40c9d8', 'password': 'gbxrxastrq', 'firstName': 'ykwixpazch'}
+[32mINFO    [0m api.courier_api:courier_api.py:32 Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+[32mINFO    [0m api.courier_api:courier_api.py:43 Авторизация курьера: courier_xnvwetvz_40c9d8
+[32mINFO    [0m api.courier_api:courier_api.py:48 Результат авторизации. Статус: 200, Ответ: {"id":507923}
+[32mINFO    [0m api.courier_api:courier_api.py:27 Создание курьера с данными: {'login': 'courier_xnvwetvz_40c9d8', 'password': 'gbxrxastrq', 'firstName': 'ykwixpazch'}
+[32mINFO    [0m api.courier_api:courier_api.py:32 Результат создания курьера. Статус: 409, Ответ: {"code":409,"message":"Этот логин уже используется. Попробуйте другой."}
+[32mINFO    [0m api.courier_api:courier_api.py:54 Удаление курьера с ID: 507923
+[32mINFO    [0m api.courier_api:courier_api.py:56 Результат удаления. Статус: 200, Ответ: {"ok":true}
