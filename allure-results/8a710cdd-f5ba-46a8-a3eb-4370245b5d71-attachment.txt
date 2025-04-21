@@ -1,3 +1,0 @@
-[32mINFO    [0m api.order_api:order_api.py:18 Creating order with payload: {'firstName': 'Тест', 'lastName': 'Тестов', 'address': 'Москва, ул. Тестовая, 1', 'metroStation': 1, 'phone': '+79999999999', 'rentTime': 1, 'deliveryDate': '2024-01-01', 'comment': 'Тестовый заказ'}
-[32mINFO    [0m api.order_api:order_api.py:20 Order creation response: 201 {"track":943152}
-[32mINFO    [0m api.order_api:order_api.py:26 Cancelling order with track: 943152

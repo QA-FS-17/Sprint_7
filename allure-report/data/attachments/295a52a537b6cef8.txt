@@ -1,4 +1,0 @@
-2025-04-20 13:23:30,740 - api.order_api - INFO - Creating order with payload: {'firstName': 'Тест', 'lastName': 'Тестов', 'address': 'Москва, ул. Тестовая, 1', 'metroStation': 1, 'phone': '+79999999999', 'rentTime': 1, 'deliveryDate': '2024-01-01', 'comment': 'Тестовый заказ'}
-2025-04-20 13:23:31,177 - api.order_api - INFO - Order creation response: 201 {"track":182656}
-2025-04-20 13:23:31,532 - api.order_api - INFO - Accept order response: 200 {"ok":true}
-2025-04-20 13:23:31,632 - api.order_api - INFO - Cancelling order with track: 182656

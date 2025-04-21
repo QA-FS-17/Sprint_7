@@ -1,4 +1,0 @@
-2025-04-20 13:23:37,293 - api.order_api - INFO - Creating order with payload: {'firstName': 'Тест', 'lastName': 'Тестов', 'address': 'Москва, ул. Тестовая, 1', 'metroStation': 1, 'phone': '+79999999999', 'rentTime': 1, 'deliveryDate': '2024-01-01', 'comment': 'Тестовый заказ'}
-2025-04-20 13:23:37,323 - api.order_api - INFO - Order creation response: 201 {"track":217843}
-2025-04-20 13:23:37,417 - api.order_api - INFO - Accept order response: 500 {"code":500,"message":"invalid input syntax for type integer: \"None\""}
-2025-04-20 13:23:37,420 - api.order_api - INFO - Cancelling order with track: 217843
