@@ -1,0 +1,5 @@
+[32mINFO    [0m api.order_api:order_api.py:18 Creating order with payload: {'firstName': 'alekdnfpam', 'lastName': 'esczxsdozi', 'address': 'г. wyvnn, ул. ixiajmqn, 99', 'metroStation': 4, 'phone': '+79687041670', 'rentTime': 3, 'deliveryDate': '2025-04-24', 'comment': 'uaoropujzckzhjcxkyzy'}
+[32mINFO    [0m api.order_api:order_api.py:20 Order creation response: 201 {"track":297047}
+[32mINFO    [0m api.order_api:order_api.py:46 Accept order response: 404 {"code":404,"message":"Курьера с таким id не существует"}
+[32mINFO    [0m api.order_api:order_api.py:26 Cancelling order with track: 297047
+[33mWARNING [0m root:conftest.py:104 Не удалось отменить заказ 297047. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

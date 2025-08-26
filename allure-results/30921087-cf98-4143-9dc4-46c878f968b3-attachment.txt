@@ -1,0 +1,5 @@
+2025-04-21 21:44:45,816 - api.order_api - INFO - Creating order with payload: {'firstName': 'chqxxbagnu', 'lastName': 'abjlhagvxg', 'address': 'г. jwltw, ул. mnlvinob, 25', 'metroStation': 1, 'phone': '+79545572151', 'rentTime': 5, 'deliveryDate': '2025-04-24', 'comment': 'eemhaelpczilnotsoeuk'}
+2025-04-21 21:44:45,844 - api.order_api - INFO - Order creation response: 201 {"track":549835}
+2025-04-21 21:44:45,951 - api.order_api - INFO - Accept order response: 500 {"code":500,"message":"invalid input syntax for type integer: \"invalid_courier_id\""}
+2025-04-21 21:44:45,956 - api.order_api - INFO - Cancelling order with track: 549835
+2025-04-21 21:44:45,979 - root - WARNING - Не удалось отменить заказ 549835. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

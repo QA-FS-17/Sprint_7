@@ -1,0 +1,8 @@
+2025-04-21 21:44:40,998 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_xnvwetvz_40c9d8', 'password': 'gbxrxastrq', 'firstName': 'ykwixpazch'}
+2025-04-21 21:44:41,074 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:41,074 - api.courier_api - INFO - Авторизация курьера: courier_xnvwetvz_40c9d8
+2025-04-21 21:44:41,141 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507923}
+2025-04-21 21:44:41,144 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_xnvwetvz_40c9d8', 'password': 'gbxrxastrq', 'firstName': 'ykwixpazch'}
+2025-04-21 21:44:41,209 - api.courier_api - INFO - Результат создания курьера. Статус: 409, Ответ: {"code":409,"message":"Этот логин уже используется. Попробуйте другой."}
+2025-04-21 21:44:41,212 - api.courier_api - INFO - Удаление курьера с ID: 507923
+2025-04-21 21:44:41,323 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

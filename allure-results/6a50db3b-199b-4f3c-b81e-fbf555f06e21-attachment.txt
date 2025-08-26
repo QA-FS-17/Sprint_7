@@ -1,0 +1,8 @@
+[32mINFO    [0m api.courier_api:courier_api.py:27 Создание курьера с данными: {'login': 'courier_wguuuehd_27ed7f', 'password': 'aapisvdprr', 'firstName': 'cmijcshgra'}
+[32mINFO    [0m api.courier_api:courier_api.py:32 Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+[32mINFO    [0m api.courier_api:courier_api.py:43 Авторизация курьера: courier_wguuuehd_27ed7f
+[32mINFO    [0m api.courier_api:courier_api.py:48 Результат авторизации. Статус: 200, Ответ: {"id":507927}
+[32mINFO    [0m api.courier_api:courier_api.py:43 Авторизация курьера: 
+[32mINFO    [0m api.courier_api:courier_api.py:48 Результат авторизации. Статус: 400, Ответ: {"code":400,"message":"Недостаточно данных для входа"}
+[32mINFO    [0m api.courier_api:courier_api.py:54 Удаление курьера с ID: 507927
+[32mINFO    [0m api.courier_api:courier_api.py:56 Результат удаления. Статус: 200, Ответ: {"ok":true}

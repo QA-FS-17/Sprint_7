@@ -1,0 +1,8 @@
+2025-04-21 21:44:37,853 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_jltbwwhh_cc8f1e', 'password': 'hkyjymlcpd', 'firstName': 'otrmmjnvwa'}
+2025-04-21 21:44:37,917 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:37,917 - api.courier_api - INFO - Авторизация курьера: courier_jltbwwhh_cc8f1e
+2025-04-21 21:44:37,981 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507917}
+2025-04-21 21:44:37,982 - api.courier_api - INFO - Удаление курьера с ID: 507917
+2025-04-21 21:44:38,058 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}
+2025-04-21 21:44:38,066 - api.courier_api - INFO - Удаление курьера с ID: 507917
+2025-04-21 21:44:38,131 - api.courier_api - INFO - Результат удаления. Статус: 404, Ответ: {"code":404,"message":"Курьера с таким id нет."}

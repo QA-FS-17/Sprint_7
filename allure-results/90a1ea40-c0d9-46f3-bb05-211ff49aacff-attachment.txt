@@ -1,0 +1,5 @@
+2025-04-21 21:44:39,074 - api.order_api - INFO - Creating order with payload: {'firstName': 'alekdnfpam', 'lastName': 'esczxsdozi', 'address': 'г. wyvnn, ул. ixiajmqn, 99', 'metroStation': 4, 'phone': '+79687041670', 'rentTime': 3, 'deliveryDate': '2025-04-24', 'comment': 'uaoropujzckzhjcxkyzy'}
+2025-04-21 21:44:39,091 - api.order_api - INFO - Order creation response: 201 {"track":297047}
+2025-04-21 21:44:39,186 - api.order_api - INFO - Accept order response: 404 {"code":404,"message":"Курьера с таким id не существует"}
+2025-04-21 21:44:39,190 - api.order_api - INFO - Cancelling order with track: 297047
+2025-04-21 21:44:39,204 - root - WARNING - Не удалось отменить заказ 297047. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

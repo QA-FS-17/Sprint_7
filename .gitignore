@@ -33,6 +33,3 @@ dist/
 # System files
 .DS_Store
 Thumbs.db
-
-# Allure reports (если они не должны быть в репозитории)
-allure-results/

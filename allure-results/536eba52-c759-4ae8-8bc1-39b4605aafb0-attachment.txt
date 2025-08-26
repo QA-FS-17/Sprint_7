@@ -1,0 +1,4 @@
+2025-04-21 21:44:38,627 - api.order_api - INFO - Creating order with payload: {'firstName': 'ntjdmkznxi', 'lastName': 'fpvrdavpwq', 'address': 'г. gspsk, ул. rsetnohx, 92', 'metroStation': 8, 'phone': '+79362373368', 'rentTime': 6, 'deliveryDate': '2025-04-24', 'comment': 'njciedpmyutpkdefcjpe'}
+2025-04-21 21:44:38,929 - api.order_api - INFO - Order creation response: 201 {"track":94840}
+2025-04-21 21:44:39,054 - api.order_api - INFO - Cancelling order with track: 94840
+2025-04-21 21:44:39,068 - root - WARNING - Не удалось отменить заказ 94840. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}

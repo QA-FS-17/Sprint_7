@@ -1,0 +1,11 @@
+2025-04-21 21:44:38,145 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_ogpzkrjr_a008d7', 'password': 'quidvkojac', 'firstName': 'setgixefwr'}
+2025-04-21 21:44:38,197 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:38,197 - api.courier_api - INFO - Авторизация курьера: courier_ogpzkrjr_a008d7
+2025-04-21 21:44:38,268 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507918}
+2025-04-21 21:44:38,269 - api.order_api - INFO - Creating order with payload: {'firstName': 'ptlckdgfua', 'lastName': 'xvwrghrflv', 'address': 'г. wlkrd, ул. uqxczsze, 39', 'metroStation': 2, 'phone': '+79358698163', 'rentTime': 1, 'deliveryDate': '2025-04-24', 'comment': 'labxavhtxkbkmylvmhds'}
+2025-04-21 21:44:38,324 - api.order_api - INFO - Order creation response: 201 {"track":233080}
+2025-04-21 21:44:38,408 - api.order_api - INFO - Accept order response: 200 {"ok":true}
+2025-04-21 21:44:38,411 - api.order_api - INFO - Cancelling order with track: 233080
+2025-04-21 21:44:38,434 - root - WARNING - Не удалось отменить заказ 233080. Ответ: {"code":400,"message":"Недостаточно данных для поиска"}
+2025-04-21 21:44:38,437 - api.courier_api - INFO - Удаление курьера с ID: 507918
+2025-04-21 21:44:38,612 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}

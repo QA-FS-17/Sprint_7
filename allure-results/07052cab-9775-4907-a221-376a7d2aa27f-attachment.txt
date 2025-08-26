@@ -1,0 +1,2 @@
+[32mINFO    [0m api.courier_api:courier_api.py:27 Создание курьера с данными: {'login': 'courier_hpokungy_607251', 'password': 'ajmgenzurr'}
+[32mINFO    [0m api.courier_api:courier_api.py:32 Результат создания курьера. Статус: 201, Ответ: {"ok":true}

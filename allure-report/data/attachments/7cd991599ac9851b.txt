@@ -1,0 +1,6 @@
+2025-04-21 21:44:39,211 - api.courier_api - INFO - Создание курьера с данными: {'login': 'courier_imafyttt_2c265a', 'password': 'rvykifhmzo', 'firstName': 'ffqfeupnok'}
+2025-04-21 21:44:39,265 - api.courier_api - INFO - Результат создания курьера. Статус: 201, Ответ: {"ok":true}
+2025-04-21 21:44:39,265 - api.courier_api - INFO - Авторизация курьера: courier_imafyttt_2c265a
+2025-04-21 21:44:39,331 - api.courier_api - INFO - Результат авторизации. Статус: 200, Ответ: {"id":507919}
+2025-04-21 21:44:39,395 - api.courier_api - INFO - Удаление курьера с ID: 507919
+2025-04-21 21:44:39,822 - api.courier_api - INFO - Результат удаления. Статус: 200, Ответ: {"ok":true}
